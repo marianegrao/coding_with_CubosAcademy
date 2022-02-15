@@ -1,0 +1,1 @@
+console.log('Maria Clara, tem 18 anos (atualmente: 15.02.22), cearense e é fascinada pela natureza & tecnologia. A mesma se encontra muito animada em começar essa nova jornada ao lado da Cubos Academy :)');
