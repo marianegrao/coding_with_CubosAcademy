@@ -4,13 +4,14 @@
     igualdade: ==, !=
     identidade: === e !==
     negação: !
+    lógica: || , &&
 
 --> Condicionais
     if - se a condição for verdadeira, é executado
     else if - se nao
     else - se nao for verdade nenhuma das anteriores, é executado 
 
- obs: descobrir o tipo de um chave/dado x - console.log(typeof x)
+ obs: descobrir o tipo de um chave/dado x --> console.log(typeof x)
 */
 
 // saber se pode entrar, se não poder o programa deve explicar o motivo
