@@ -13,23 +13,26 @@
 */
 
 const paises = ["argentina", 'brasil', 'cuba', 'mexico', 'guiana']
+const outrosPaises = []
 
-//adicionando um pais no ultimo indice
-paises.push('paraguai')
-console.log(paises)
+// //adicionando um pais no ultimo indice
+// paises.push('paraguai')
+// console.log(paises)
 
-//removendo um pais do ultimo indice
-paises.pop()
-console.log(paises)
+// //removendo um pais do ultimo indice
+// paises.pop()
+// console.log(paises)
 
-//adicionando um pais no indice 0
-paises.unshift('bolivia')
-console.log(paises)
+// //adicionando um pais no indice 0
+// paises.unshift('bolivia')
+// console.log(paises)
 
 //removendo um pais do indice 0
-paises.shift()
+//paises.unshift(paises.shift())
+outrosPaises.push((paises.shift()))
+console.log(outrosPaises)
 console.log(paises)
 
-console.log(paises[paises.length -1]) // ultimo da lista
-console.log(paises[1])
-console.log(paises[2])
+// console.log(paises[paises.length -1]) // ultimo da lista
+// console.log(paises[1][0])
+// console.log(paises[2])

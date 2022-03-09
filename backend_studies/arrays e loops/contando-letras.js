@@ -4,7 +4,6 @@ function aNaPalavra (palavra){
 
     for (let letra of palavra){
         const temLetraA = letra === 'a' || letra ==='A'
-        //const letraS = total == 1 ? "letras": "letra"
         if (temLetraA){
             total ++
             encontrado = true;
