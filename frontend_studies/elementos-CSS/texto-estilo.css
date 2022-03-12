@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size:  54px;
+    font-weight: 700px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 32px;
+    font-weight: 500px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+ul {
+    text-align: left;
+    font-size: 30px;
+    list-style-type: none;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+
+img{
+    opacity: 1; /*deixar transparente*/
+    width: 250px;
+}
