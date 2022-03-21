@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    margin-left: 10px;
+}

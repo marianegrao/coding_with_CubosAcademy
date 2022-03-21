@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+header,main,aside,footer{
+    border: 2px solid black;
+    text-align: center;
+}
+header, footer{
+    background-color: lightsteelblue;
+}
+
+main{
+    flex-grow: 2;
+    min-width: 200px;
+    padding: 10px;
+    background-color: lightpink;
+}
+
+aside{
+    max-width: 100px;
+    background-color: lightgreen;
+    flex-direction: column;
+}
+
+main,aside{
+    display: flex;
+    justify-items: center;
+}
+
+.container{
+    display: flex;
+    min-width: 500px;
+    box-sizing: border-box;
+}
